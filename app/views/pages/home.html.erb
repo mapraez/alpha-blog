@@ -4,8 +4,10 @@
 <title>Home Page</title>
 </head>
 <body>
-<h1>This is the Home Page</h1>
-<%= image_tag "supper.jpg" %>
+<div class="center jumbotron">
+  <h1>Alpha Blog</h1>
+  <%= link_to "Sign up now", "#", class: "btn btn-danger btn-lg btn-xlarge" %>
+  </div>
 
 <br>
 <%= link_to "Alpha Blog", articles_path %> | <%= link_to 'About Page', about_path %>
